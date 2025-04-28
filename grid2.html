@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+<style>
+    body{
+        background-color: bisque;
+    }
+    .main-container{
+        border: 2px solid black;
+        display: grid;
+        height: 81vh;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(7, 100px);
+        gap: 1px solid balck;
+        
+        
+    }
+    .grid{
+        display: flex;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center
+    }
+    
+    #grid-item-13{
+        grid-column: 1 / span 2; grid-row: 1 / span 2; background-color: lightgreen;
+    }
+    #grid-item-9{
+        grid-column: 3 / span 2; grid-row: 1 / span 1;
+    }
+    #grid-item-18{
+        grid-column: 5 / span 1; grid-row: 1 / span 1; background-color: lightblue;
+    }
+    #grid-item-1{
+        grid-column: 6 / span 2; grid-row: 1 / span 2; background-color: yellow;
+    }
+    #grid-item-20{
+        grid-column: 8 / span 2; grid-row: 1 / span 1;
+    }
+    #grid-item-15{
+        grid-column: 10 / span 1; grid-row: 1 / span 1; background-color: pink;
+    }
+    #grid-item-22{
+        grid-column: 1 / span 2; background-color: yellow;
+    }
+    #grid-item-5{
+        grid-column: 3 / span 1; grid-row: 2 / span 2;
+    }
+    #grid-item-6{
+        grid-column: 4 / span 2; grid-row: 2 / span 2; background-color: pink;
+    }
+    #grid-item-8{
+        grid-column: 6 / span 2;
+    }
+    #grid-item-11{
+        grid-column: 8 / span 1; grid-row: 2 / span 2;background-color: lightblue;
+    }
+    #grid-item-3{
+        grid-column: 9 / span 2; grid-row: 2 / span 2;
+    }
+    #grid-item-7{
+        grid-column: 1 / span 1;
+    }
+    #grid-item-16{
+        grid-column: 2 / span 2;
+    }
+    #grid-item-2{
+        grid-column: 4 / span 2; grid-row: 4 / span 2;
+    }
+    #grid-item-19{
+        grid-column: 6 / span 1; background-color: pink;
+    }
+    #grid-item-14{
+        grid-column: 7 / span 2;
+    }
+    #grid-item-21{
+        grid-column: 9 / span 2; grid-row: 4 / span 2; background-color: yellow;
+    }
+    #grid-item-24{
+        grid-column: 1 / span 2; grid-row: 5 / span 2; background-color: lightblue;
+    }
+    #grid-item-17{
+        grid-column: 3 / span 1; grid-row: 5 / span 2;
+    }
+    #grid-item-12{
+        grid-column: 4 / span 2;
+    }
+    #grid-item-4{
+        grid-column: 6 / span 2; grid-row: 5 / span 2; background-color: lightgreen;
+    }
+    #grid-item-23{
+        grid-column: 8 / span 1; grid-row: 5 / span 2;
+    }
+    #grid-item-10{
+        grid-column: 9 / span 2; 
+    }
+
+    
+        
+    
+</style>
+<body>
+    <div class="main-container">
+        <div class="grid" id="grid-item-13">13</div>
+        <div class="grid" id="grid-item-9">9</div>
+        <div class="grid" id="grid-item-18">18</div>
+        <div class="grid" id="grid-item-1">1</div>
+        <div class="grid" id="grid-item-20">20</div>
+        <div class="grid" id="grid-item-15">15</div>
+        <div class="grid" id="grid-item-22">22</div>
+        <div class="grid" id="grid-item-5">5</div>
+        <div class="grid" id="grid-item-6">6</div>
+        <div class="grid" id="grid-item-8">8</div>
+        <div class="grid" id="grid-item-11">11</div>
+        <div class="grid" id="grid-item-3">3</div>
+        <div class="grid" id="grid-item-7">7</div>
+        <div class="grid" id="grid-item-16">16</div>
+        <div class="grid" id="grid-item-2">2</div>
+        <div class="grid" id="grid-item-19">19</div>
+        <div class="grid" id="grid-item-14">14</div>
+        <div class="grid" id="grid-item-21">21</div>
+        <div class="grid" id="grid-item-24">24</div>
+        <div class="grid" id="grid-item-17">17</div>
+        <div class="grid" id="grid-item-12">12</div>
+        <div class="grid" id="grid-item-4">4</div>
+        <div class="grid" id="grid-item-23">23</div>
+        <div class="grid" id="grid-item-10">10</div>
+    </div>
+    
+</body>
+</html>
