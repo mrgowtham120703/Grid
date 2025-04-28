@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+        
+    
+    .main-container{
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr );
+        grid-template-rows: repeat(5, 100px);
+    
+    }
+    .grid{
+        display: flex;
+        border: 2px solid black;
+        align-items: center ;
+        justify-content: center;
+        
+    }
+    .grid-1{
+        padding: 50px;
+    }
+    #grid-item-1{
+        grid-column: 1 / span 1; grid-row: 1 / span 5; background-color:  yellow;
+    }
+    #grid-item-2{
+        grid-column: 2 / span 1; grid-row: 1 / span 1;
+    }
+    #grid-item-3{
+        grid-column: 3 / span 1; grid-row: 1 / span 2;
+    }
+    #grid-item-4{
+        grid-column: 4 / span 2; grid-row: 1 / span 1;
+    }
+    #grid-item-5{
+        grid-column: 2 / span 1; grid-row: 2 / span 1;
+    }
+    #grid-item-6{
+        grid-column: 4 / span 1; grid-row: 2 / span 2;
+    }
+    #grid-item-7{
+        grid-column: 5 / span 1; grid-row: 2 / span 3;
+    }
+    #grid-item-8{
+        grid-column: 2 / span 2; grid-row: 3 / span 1;
+    }
+    #grid-item-9{
+        grid-column: 4 / span 1; grid-row: 3 / span 1;
+    }
+    #grid-item-10{
+        grid-column: 2 / span 1; grid-row: 4 / span 1;
+    }
+    #grid-item-11{
+        grid-column: 3 / span 1; grid-row: 4 / span 1;
+    }
+    #grid-item-12{
+        grid-column: 4 / span 1; grid-row: 4 / span 1;
+    }
+    #grid-item-13{
+        grid-column: 5 / span 1; grid-row: 4 / span 2;
+    }
+    #grid-item-14{
+        grid-column: 2 / span 1; grid-row: 5 / span 1;
+    }
+    #grid-item-15{
+        grid-column: 3 / span 2; grid-row: 5 / span 1;
+    }
+</style>
+<body>
+    <div class="main-container">
+        <div class="grid-1" id="grid-item-1">
+            <h1><i> what is css grid?</i></h1>
+            <br><br>
+            <p>css grid is powerful layout system available in css</p>
+        </div>
+        <div class="grid" id="grid-item-2"><img src="/images/buidings image.jpg" alt="" height="100px" width="300px"></div>
+        <div class="grid" id="grid-item-3"><img src="/images/buildings image.jpg" alt="" height="197px" width="301px"></div>
+        <div class="grid" id="grid-item-4"><img src="/images/download (1).jpg" alt="" height="100px" width="605px"></div>
+        <div class="grid" id="grid-item-5"><img src="/images/download (2).jpg" alt="" height="100px" width="300px"></div>
+        <div class="grid" id="grid-item-6"><img src="/images/buidings image.jpg" alt="" height="200px" width="300px"></div>
+        <div class="grid" id="grid-item-7"><img src="/images/download (4).jpg" alt="" height="300px" width="302px"></div>
+        <div class="grid" id="grid-item-8"><img src="/images/download.jpg" alt="" height="100px" width="606px"></div>
+        <div class="grid" id="grid-item-9"><img src="/images/images (1).jpg" alt="" height="100px" width="300px"></div>
+        <div class="grid" id="grid-item-10"><img src="/images/images (2).jpg" alt="" height="100px" width="300px"></div>
+        <div class="grid" id="grid-item-11"><img src="/images/images.jpg" alt="" height="100px" width="301px"></div>
+        <div class="grid" id="grid-item-12"><img src="/images/ocean image.jpg" alt="" height="100px" width="300px"></div>
+        <div class="grid" id="grid-item-13"><img src="/images/images.jpg" alt="" height="200px" width="301px"></div>
+        <div class="grid" id="grid-item-14"><img src="/images/download.jpg" alt="" height="100px" width="300px"></div>
+        <div class="grid" id="grid-item-15"><img src="/images/sunset image.jpg" alt="" height="100px" width="604px"></div>
+    </div>
+</body>
+</html>
